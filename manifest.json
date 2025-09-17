@@ -1,20 +1,16 @@
 {
   "version": 1,
   "locale": "en_US",
+  "platform": "4.5.0",
   "metadata": {
     "appmode": "shiny",
+    "primary_r": "app.R",
     "primary_rmd": null,
     "primary_html": null,
-    "primary_r": "app.R",
-    "title": "Basic Shiny App Example",
-    "content_category": "application"
+    "content_category": "application",
+    "has_parameters": false
   },
   "packages": {
-    "shiny": {
-      "source": "CRAN",
-      "version": "1.9.1"
-    }
-  },
-  "r_version": "4.5.0",
-  "entrypoint": "app.R"
+    "shiny": { "Source": "CRAN", "Version": "1.9.1" }
+  }
 }
